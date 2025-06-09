@@ -50,7 +50,7 @@ body {
 
 #poem {
   margin-top: 20px;
-  margin-left: 30px; /* shift the whole block slightly right */
+  margin-left: 40px; /* shift the whole block slightly right */
   width: 510px;
   height: 490px;
   background-size: contain;
@@ -79,5 +79,39 @@ p {
   line-height: 1.4;
 }
 footer {
+  margin-top: 10px;
   text-align: center;
+}
+
+@media (max-width: 600px) {
+  #poem {
+    width: 90%;
+    height: auto;
+    max-width: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #poem-text {
+    font-size: 1rem;
+    width: 85%;
+    transform: rotate(-3deg);
+    text-align: center;
+  }
+
+  #search-field {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  #inspiration,
+  #button {
+    width: 90%;
+    font-size: 1rem;
+    padding: 2px;
+  }
 }
