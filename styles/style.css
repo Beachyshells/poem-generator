@@ -1,5 +1,9 @@
 body {
   background-color: rgb(203, 127, 224);
+  background-image: url("polka-dot.jpg");
+  background-size: cover;
+  background-repeat: repeat;
+  background-blend-mode: multiply;
 
   h1 {
     display: flex;
@@ -7,6 +11,7 @@ body {
     padding-top: 20px;
     font-size: 42px;
     font-family: "Shantell Sans", cursive;
+    color: white;
   }
 
   #search-field {
@@ -50,7 +55,7 @@ body {
 
 #poem {
   margin-top: 20px;
-  margin-left: 40px; /* shift the whole block slightly right */
+  margin-left: 40px;
   width: 510px;
   height: 490px;
   background-size: contain;
@@ -62,6 +67,7 @@ body {
   justify-content: center;
   align-items: center;
 }
+
 p {
   position: relative;
   display: flex;
