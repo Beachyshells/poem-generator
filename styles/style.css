@@ -21,7 +21,7 @@ body {
   padding: 2px 50px;
 }
 h1 {
-  font-size: 1em;
+  font-size: 1.75rem;
   margin: 0;
 }
 
@@ -69,8 +69,8 @@ h1 {
 
 #poem {
   margin-left: 35px;
-  width: 65vw;
-  height: 62vh;
+  width: 70vw;
+  height: 67vh;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
