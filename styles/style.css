@@ -69,14 +69,15 @@ h1 {
 
 #poem {
   margin-left: 35px;
-  width: 70vw;
-  height: 67vh;
+  width: 450px;
+  height: 500px;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
   background-image: url(sticky-note.png);
   font-family: "Shantell Sans", cursive;
   display: flex;
+  max-width: 90%;
   justify-content: center;
   align-items: center;
   padding-right: 30px;
@@ -84,20 +85,18 @@ h1 {
 
 p {
   position: relative;
-  display: flex;
   margin: 0 auto;
-
   justify-content: center;
   align-items: center;
 }
 
 #poem-text {
   transform: rotate(-8deg);
+  margin: auto 30px;
   text-align: center;
   font-size: 1rem;
-  width: 80%;
+  max-width: 380px;
   line-height: 1.4;
-  padding-top: 10px;
 }
 footer {
   margin: 4px auto;
